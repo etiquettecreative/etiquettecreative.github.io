@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Launching new Etiquette Creative site"
+title: "Launching the New Etiquette Creative site"
+author: Amy Pickup
 date: 2017-04-20
 ---
 

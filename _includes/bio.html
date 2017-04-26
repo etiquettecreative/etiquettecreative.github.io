@@ -1,9 +1,22 @@
----
-layout: default
----
-<h1>{{ page.title }}</h1>
-<p class="meta">{{ page.date | date_to_string }}</p>
-
-<div class="post">
-  {{ content }}
+<!--<div class="row">
+	<div class="col-md-4">
+	  <img src={{ include.url }} class="center-block img-fluid">
+	</div>
+	<div class="col-md-8">
+	  <h1>{{ include.name }}</h1>
+	  <h2>{{ include.role }}</h2>
+	  <p>{{ include.content }}</p>
+	</div>
+</div>
+-->
+<div class="col-xs-12 col-sm-6 col-md-4" style="height:625px;">
+  <div class="thumbnail">
+    <img src="{{ include.url }}">
+      <div class="caption">
+        <h4>{{ include.name }}</h4>
+        <h5>{{ include.role }}</h5>
+        <p>{{ include.content }}</p>
+        <!--<a href="#" class="btn btn-default btn-xs pull-right" role="button"><i class="glyphicon glyphicon-edit"></i></a> <a href="#" class="btn btn-info btn-xs" role="button">Button</a> <a href="#" class="btn btn-default btn-xs" role="button">Button</a>-->
+    </div>
+  </div>
 </div>
