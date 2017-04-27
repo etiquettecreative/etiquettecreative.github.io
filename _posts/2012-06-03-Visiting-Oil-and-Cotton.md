@@ -10,4 +10,4 @@ Oil & Cotton is a non-profit founded by instructors Shannon Driscoll and Kayli H
 
 ![oil and cotton](https://etiquettecreative.github.io/assets/images/oilandcotton1.jpeg)
 
-![oil and cotton](assets/images/oilandcotton2.jpeg)
+![oil and cotton](https://etiquettecreative.github.io/assets/images/oilandcotton2.jpeg)
