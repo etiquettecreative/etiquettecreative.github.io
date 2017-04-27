@@ -34,12 +34,15 @@ body {
 
 .parallax-text {
   text-align: center;
-  color: rgba(255,215,56,.7);
+  color: rgba(255,200,5,.8);
   font-size:100px; 
-  font-family:verdana;
-  font-weight:700;
-  letter-spacing: -.06em;
-  line-height:80%;
+  font-family: 'Francois One', sans-serif;
+  letter-spacing: -.02em;
+  line-height:100%;
+}
+/*
+@include media-breakpoint-up(xs) {
+  font-size:80%; 
 }
 
 @include media-breakpoint-up(sm) {
@@ -53,7 +56,7 @@ body {
 @include media-breakpoint-up(lg) {
   font-size:600%; 
 }
-
+*/
 /* Navbar styles
 -------------------------------------------------- */
 .navbar {
@@ -80,4 +83,7 @@ body {
   background-color: transparent;
   background: transparent;
   border-color: transparent;
+}
+
+.jumbotron {
 }

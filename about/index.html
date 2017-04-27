@@ -9,50 +9,40 @@ title: About Us
 		</div>
 	</div>
 </div>
-<div class="container">
+<div class="container slideanim">
 	<div class="jumbotron transparent">
-	<h2>The Disconnect</h2>
+	<h2>The Problem</h2>
 
 	<p>The number of women choosing to pursue technology related fields is drastically disproportionate to the number of men those same fields. (NSF) </p>
 
 	<p>Girls need more encouragement from a younger age to continue into the fields of Engineering and Computer Science throughout their education. </p>
  
-	<h2>Goals</h2>
+	<h2>Our Goal</h2>
 
 	<p>Computer Science and Engineering industries can only benefit from an increase in the number of women in technology. Diversity in anything is critical to success. We aim to empower girls with the ability to make an informed choice about their future by exposing them to new technologies that interest them.</p> 
+
+	<h2>How we get there</h2>
 
 	<p>We conduct workshops and day camps that aim to teach girls new technologies that combine engineering, computer science and the arts.</p>
 
 	<div class="row">
-		 <div class="col-sm-4">
-			 <div class="card" style="width: 20rem;">
-				<img class="card-img-top" src="../assets/images/electronic-fashion-camp-girls-at-table-small.jpeg" alt="Card image cap">
-		  		<div class="card-block">
-		    		<h4 class="card-title">Research and Development</h4>
-		    		<p class="card-text">Identifying new, engaging technologies that span multiple disciplines</p>
-		  		</div>
-			</div>
-		</div>
-		<div class="col-sm-4">
-			<div class="card" style="width: 20rem;">
-				<img class="card-img-top" src="../assets/images/electronic-fashion-camp-two-girls-with-help.jpeg" alt="Card image cap">
-		  		<div class="card-block">
-		    		<h4 class="card-title">Events</h4>
-		    		<p class="card-text">Engaging participants, volunteers and sponsors</p>
-		    		<a href="/volunteer" class="btn btn-primary">Volunteer</a>
-		  		</div>
-			</div>
-		</div>
-		<div class="col-sm-4">
-			<div class="card" style="width: 20rem;">
-				<img class="card-img-top" src="..." alt="Card image cap">
-		  		<div class="card-block">
-		    		<h4 class="card-title">Open Source</h4>
-		    		<p class="card-text">Creating handy online guides explaining each activity, enabling anyone to lead their own workshop</p>
-		    		<a href="#" class="btn btn-primary">Go somewhere</a>
-		  		</div>
-			</div>
-		</div>
+		 {% include processCards.html
+		 	url="../assets/images/electronic-fashion-camp-girls-at-table-small.jpeg"
+		 	alt="girls working at table"
+		 	title="Research and Development"
+		 	content="Identifying new, engaging technologies that span multiple disciplines" %}
+
+		 {% include processCards.html
+		 	url="../assets/images/electronic-fashion-camp-two-girls-with-help.jpeg"
+		 	alt="Two girls with help"
+		 	title="Events"
+		 	content="Engaging participants, volunteers and sponsors" %}
+		 
+		{% include processCards.html
+		 	url="../assets/images/electronic-fashion-camp-girl-with-pink-shirt-typing.jpg"
+		 	alt="Girl Typing"
+		 	title="Open Source"
+		 	content="Creating handy online guides explaining each activity, enabling anyone to lead their own workshop" %}
 	</div>
 	</div>
 </div>
@@ -72,7 +62,9 @@ title: About Us
 
 	<p>We started Etiquette Creative with the goal of finding a way to encourage girls to enter into STEM fields. With an understanding of the disparity between the number of men and women in STEM fields, we began researching ways to engage girls in technology at a younger age.</p>
 
-	<p>We used the LilyPad Arduino, a microcontroller designed by Leah Buechley, as a test case and created an hour long workshop called "Tinkering with Microcontrollers". With the support of the University of Texas at Dallas EMAC Program and the Design Your World, Conference for Girls, we conducted our first experimental session with a group of 20 middle-school girls; and it was great! The girls lit up their own microcontrollers after learning about: </p>
+	<p>We used the LilyPad Arduino, a microcontroller designed by Leah Buechley, as a test case and created an hour long workshop called "Tinkering with Microcontrollers". </p>
+	
+	<p>With the support of the University of Texas at Dallas EMAC Program and the Design Your World, Conference for Girls, we conducted our first experimental session with a group of 20 middle-school girls; and it was great! The girls lit up their own microcontrollers after learning about: </p>
 
     <ul>
     	<li>Engineering job roles from fellow women engineers</li>
